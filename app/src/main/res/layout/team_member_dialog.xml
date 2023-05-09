@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Player Details"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:alpha="0.1"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvPlayerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Title"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tvBatting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Batting "
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:alpha="0.1"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvBattingStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Title"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvBattingAverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Title"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvBowling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Bowling "
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:alpha="0.1"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tvBowlingStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Title"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvBowlingAverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Title"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@color/purple_500"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
+</layout>
